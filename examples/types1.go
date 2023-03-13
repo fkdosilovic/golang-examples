@@ -13,7 +13,7 @@ const (
 
 func main() {
 	boilingFreezingDiffF := (BoilingC - FreezingC).ToFahrenheit()
-	fmt.Printf("%s\n", boilingFreezingDiffF.String())
+	fmt.Printf("%v\n", boilingFreezingDiffF)
 }
 
 func (c Celsius) String() string    { return fmt.Sprintf("%g°C", c) }
